@@ -1,0 +1,5 @@
+C:\Users\Etg1\source\repos\assignmentjaleel\obj\Debug\net6.0\assignmentjaleel.csproj.AssemblyReference.cache
+C:\Users\Etg1\source\repos\assignmentjaleel\obj\Debug\net6.0\assignmentjaleel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Etg1\source\repos\assignmentjaleel\obj\Debug\net6.0\assignmentjaleel.AssemblyInfoInputs.cache
+C:\Users\Etg1\source\repos\assignmentjaleel\obj\Debug\net6.0\assignmentjaleel.AssemblyInfo.cs
+C:\Users\Etg1\source\repos\assignmentjaleel\obj\Debug\net6.0\assignmentjaleel.csproj.CoreCompileInputs.cache

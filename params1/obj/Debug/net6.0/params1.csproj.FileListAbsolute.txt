@@ -1,0 +1,15 @@
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.csproj.AssemblyReference.cache
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.AssemblyInfoInputs.cache
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.AssemblyInfo.cs
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.csproj.CoreCompileInputs.cache
+C:\Users\Etg1\source\repos\params1\bin\Debug\net6.0\params1.exe
+C:\Users\Etg1\source\repos\params1\bin\Debug\net6.0\params1.deps.json
+C:\Users\Etg1\source\repos\params1\bin\Debug\net6.0\params1.runtimeconfig.json
+C:\Users\Etg1\source\repos\params1\bin\Debug\net6.0\params1.dll
+C:\Users\Etg1\source\repos\params1\bin\Debug\net6.0\params1.pdb
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.dll
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\refint\params1.dll
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.pdb
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\params1.genruntimeconfig.cache
+C:\Users\Etg1\source\repos\params1\obj\Debug\net6.0\ref\params1.dll

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="046f73cf-53ce-45ed-b871-4759c77a1ab0" name="H9B2T72-SHEL$@H9B2T72-SHEL 2022-09-05 18:52:13" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-09-05T18:52:13.3133974+06:00" queuing="2022-09-05T18:52:13.3133976+06:00" start="2022-09-05T18:52:11.2660971+06:00" finish="2022-09-05T18:52:13.3208852+06:00" />
+  <TestSettings name="default" id="7bcabf86-3961-4bca-9b39-7b288fb2f1dc">
+    <Deployment runDeploymentRoot="H9B2T72-SHEL$_H9B2T72-SHEL_2022-09-05_18_52_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bb1a7601-d831-4727-845c-7a9e6f02c37f" testId="965f9222-afc8-4f42-90c2-8f7d38452e02" testName="TestMethod1" computerName="H9B2T72-SHEL" duration="00:00:00.0245755" startTime="2022-09-05T18:52:13.1180150+06:00" endTime="2022-09-05T18:52:13.1586918+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb1a7601-d831-4727-845c-7a9e6f02c37f" />
+    <UnitTestResult executionId="1aa7b464-6c7b-49d3-a190-67cb333fe53c" testId="fece064f-6c6a-4496-b6ef-f3052c72842a" testName="TestYearsOfExp" computerName="H9B2T72-SHEL" duration="00:00:00.0004929" startTime="2022-09-05T18:52:13.1672923+06:00" endTime="2022-09-05T18:52:13.1680191+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aa7b464-6c7b-49d3-a190-67cb333fe53c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestYearsOfExp" storage="c:\users\etg1\source\repos\employeetest\bin\debug\net6.0\employeetest.dll" id="fece064f-6c6a-4496-b6ef-f3052c72842a">
+      <Execution id="1aa7b464-6c7b-49d3-a190-67cb333fe53c" />
+      <TestMethod codeBase="C:\Users\Etg1\source\repos\EmployeeTest\bin\Debug\net6.0\EmployeeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EmployeeTest.UnitTest1" name="TestYearsOfExp" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\etg1\source\repos\employeetest\bin\debug\net6.0\employeetest.dll" id="965f9222-afc8-4f42-90c2-8f7d38452e02">
+      <Execution id="bb1a7601-d831-4727-845c-7a9e6f02c37f" />
+      <TestMethod codeBase="C:\Users\Etg1\source\repos\EmployeeTest\bin\Debug\net6.0\EmployeeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EmployeeTest.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="965f9222-afc8-4f42-90c2-8f7d38452e02" executionId="bb1a7601-d831-4727-845c-7a9e6f02c37f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fece064f-6c6a-4496-b6ef-f3052c72842a" executionId="1aa7b464-6c7b-49d3-a190-67cb333fe53c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

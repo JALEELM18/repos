@@ -5,13 +5,15 @@ using APIDemo.Controllers;
 using APIDemo.Models;
 using Microsoft.EntityFrameworkCore;
 using APIDemo.Models;
+using Microsoft.AspNetCore.OData;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<APIDemoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("APIDemoContext") ?? throw new InvalidOperationException("Connection string 'APIDemoContext' not found.")));
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddOData(options => options.Select().Filter());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 builder.Services.AddEndpointsApiExplorer();

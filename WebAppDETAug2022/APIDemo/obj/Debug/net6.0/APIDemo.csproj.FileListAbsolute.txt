@@ -260,3 +260,8 @@ C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\runtimes\wi
 C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\Etg1\source\repos\WebAppDETAug2022\APIDemo\bin\Debug\net6.0\Microsoft.Spatial.dll

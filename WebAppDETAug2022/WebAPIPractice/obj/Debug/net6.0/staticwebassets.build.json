@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "YngCFBJJqNoycK8AEYBZ7OqGt5lz6Nh59CJ7/pGAWL8=",
+  "Source": "WebAPIPractice",
+  "BasePath": "_content/WebAPIPractice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIPractice\\wwwroot",
+      "Source": "WebAPIPractice",
+      "ContentRoot": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\",
+      "BasePath": "_content/WebAPIPractice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\INDEX.html",
+      "SourceId": "WebAPIPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\",
+      "BasePath": "_content/WebAPIPractice",
+      "RelativePath": "INDEX.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\INDEX.html"
+    },
+    {
+      "Identity": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\SITE.CSS",
+      "SourceId": "WebAPIPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\",
+      "BasePath": "_content/WebAPIPractice",
+      "RelativePath": "SITE.CSS",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SITE.CSS"
+    },
+    {
+      "Identity": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\site.js",
+      "SourceId": "WebAPIPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Etg1\\source\\repos\\WebAppDETAug2022\\WebAPIPractice\\wwwroot\\",
+      "BasePath": "_content/WebAPIPractice",
+      "RelativePath": "site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.js"
+    }
+  ]
+}

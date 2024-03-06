@@ -8,9 +8,9 @@ class Merged
         int i = 0;
         int j = 0;
 
-        int[] arr1 = new int[5] { 5, 6, 8, 10, 30, };
+        int[] arr1 = new[]{ 5, 6, 8, 10, 30, };
 
-        int[] arr2 = new int[5] { 60, 66, 75, 89, 96 };
+        int[] arr2 = new[]{ 60, 66, 75, 89, 96 };
 
         int[] merged = new int[10];
 

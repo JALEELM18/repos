@@ -10,7 +10,7 @@
 }(this, (function (Popper) { 'use strict';
 
   function _interopNamespace(e) {
-    if (e && e.__esModule) return e;
+    if (e?.__esModule) return e;
     var n = Object.create(null);
     if (e) {
       Object.keys(e).forEach(function (k) {
@@ -1233,7 +1233,7 @@
         this._interval = null;
       }
 
-      if (this._config && this._config.interval && !this._isPaused) {
+      if (this._config?.interval && !this._isPaused) {
         this._updateInterval();
 
         this._interval = setInterval((document.visibilityState ? this.nextWhenVisible : this.next).bind(this), this._config.interval);
@@ -1377,7 +1377,7 @@
     }
 
     _getItemIndex(element) {
-      this._items = element && element.parentNode ? SelectorEngine.find(SELECTOR_ITEM, element.parentNode) : [];
+      this._items = element?.parentNode ? SelectorEngine.find(SELECTOR_ITEM, element.parentNode) : [];
       return this._items.indexOf(element);
     }
 
@@ -1451,7 +1451,7 @@
 
       const eventDirectionName = this._orderToDirection(order);
 
-      if (nextElement && nextElement.classList.contains(CLASS_NAME_ACTIVE$2)) {
+      if (nextElement?.classList.contains(CLASS_NAME_ACTIVE$2)) {
         this._isSliding = false;
         return;
       }
@@ -1738,7 +1738,7 @@
         const tempActiveData = actives.find(elem => container !== elem);
         activesData = tempActiveData ? Collapse.getInstance(tempActiveData) : null;
 
-        if (activesData && activesData._isTransitioning) {
+        if (activesData?._isTransitioning) {
           return;
         }
       }
@@ -4710,7 +4710,7 @@
         parent = parent.parentNode;
       }
 
-      if (parent && parent.classList.contains(CLASS_NAME_DROPDOWN_MENU)) {
+      if (parent?.classList.contains(CLASS_NAME_DROPDOWN_MENU)) {
         const dropdownElement = element.closest(SELECTOR_DROPDOWN);
 
         if (dropdownElement) {

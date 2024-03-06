@@ -1207,7 +1207,7 @@ class Carousel extends BaseComponent {
       this._interval = null;
     }
 
-    if (this._config && this._config.interval && !this._isPaused) {
+    if (this._config?.interval && !this._isPaused) {
       this._updateInterval();
 
       this._interval = setInterval((document.visibilityState ? this.nextWhenVisible : this.next).bind(this), this._config.interval);
@@ -1351,7 +1351,7 @@ class Carousel extends BaseComponent {
   }
 
   _getItemIndex(element) {
-    this._items = element && element.parentNode ? SelectorEngine.find(SELECTOR_ITEM, element.parentNode) : [];
+    this._items = element?.parentNode ? SelectorEngine.find(SELECTOR_ITEM, element.parentNode) : [];
     return this._items.indexOf(element);
   }
 
@@ -1425,7 +1425,7 @@ class Carousel extends BaseComponent {
 
     const eventDirectionName = this._orderToDirection(order);
 
-    if (nextElement && nextElement.classList.contains(CLASS_NAME_ACTIVE$2)) {
+    if (nextElement?.classList.contains(CLASS_NAME_ACTIVE$2)) {
       this._isSliding = false;
       return;
     }
@@ -1712,7 +1712,7 @@ class Collapse extends BaseComponent {
       const tempActiveData = actives.find(elem => container !== elem);
       activesData = tempActiveData ? Collapse.getInstance(tempActiveData) : null;
 
-      if (activesData && activesData._isTransitioning) {
+      if (activesData?._isTransitioning) {
         return;
       }
     }
@@ -4684,7 +4684,7 @@ class Tab extends BaseComponent {
       parent = parent.parentNode;
     }
 
-    if (parent && parent.classList.contains(CLASS_NAME_DROPDOWN_MENU)) {
+    if (parent?.classList.contains(CLASS_NAME_DROPDOWN_MENU)) {
       const dropdownElement = element.closest(SELECTOR_DROPDOWN);
 
       if (dropdownElement) {
